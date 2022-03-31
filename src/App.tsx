@@ -1,5 +1,11 @@
+import OrderSummary from "./pages/summary/OrderSummary";
+
 function App() {
-  return <div>It works</div>;
+  return (
+    <div>
+      <OrderSummary />
+    </div>
+  );
 }
 
 export default App;

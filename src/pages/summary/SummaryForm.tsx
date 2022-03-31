@@ -13,7 +13,7 @@ export default function SummaryForm() {
   const checkboxLabel = (
     <span>
       I agree to
-      <OverlayTrigger placement="top" overlay={popover}>
+      <OverlayTrigger trigger="hover" placement="top" overlay={popover}>
         <span style={{ color: "blue" }}> Terms and conditions</span>
       </OverlayTrigger>
     </span>
